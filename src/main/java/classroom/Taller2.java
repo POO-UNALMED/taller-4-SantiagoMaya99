@@ -3,6 +3,15 @@ package classroom;
 public class Taller2 {
 
     public static void main(String[] args) {
+    	
+//    	Sin nombre
+//    	10122
+//    	882
+//    	50
+//    	0
+//    	1
+    	
+    	
         Persona[] estudiantes1 = new Persona[3];
         estudiantes1[0] = new Persona(188220);
         estudiantes1[1] = new Persona();
@@ -16,9 +25,9 @@ public class Taller2 {
         asignatura2.setCodigoInterno(98);
         asignatura2.cambiarDatos("Estadistica");
         Grupo grupo2 = new Grupo(2, profesor2, asignatura2, 10122, "W V 8-10");
-        grupo2.cambiarEstudiante(0, estudiantes1[0]);
-        grupo2.cambiarEstudiante(1, estudiantes1[2]);
-        grupo2.cambiarEstudiante(estudiantes1[0], estudiantes1[1]);
+//        grupo2.cambiarEstudiante(0, estudiantes1[0]);
+//        grupo2.cambiarEstudiante(1, estudiantes1[2]);
+//        grupo2.cambiarEstudiante(estudiantes1[0], estudiantes1[1]);
 
         System.out.println(new Asignatura().nombre);
         System.out.println(grupo2.codigo);
